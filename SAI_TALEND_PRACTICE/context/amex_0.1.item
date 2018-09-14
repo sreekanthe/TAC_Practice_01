@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_lUo3oLgAEeiuUqpHl7rkrg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_lUo3obgAEeiuUqpHl7rkrg" comment="" name="tgt_db_uid" prompt="tgt_db_uid?" promptNeeded="false" type="id_String" value="system"/>
+  <contextParameter xmi:id="_lUo3orgAEeiuUqpHl7rkrg" comment="" name="tgt_db_pwd" prompt="tgt_db_pwd?" promptNeeded="false" type="id_String" value="manager123"/>
+  <contextParameter xmi:id="_lUo3o7gAEeiuUqpHl7rkrg" comment="" name="tgt_db_host" prompt="tgt_db_host?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_lUo3pLgAEeiuUqpHl7rkrg" comment="" name="tgt_db_port" prompt="tgt_db_port?" promptNeeded="false" type="id_String" value="1521"/>
+  <contextParameter xmi:id="_lUo3pbgAEeiuUqpHl7rkrg" comment="" name="tgt_db_database" prompt="tgt_db_database?" promptNeeded="false" type="id_String" value="xe"/>
+  <contextParameter xmi:id="_lUo3prgAEeiuUqpHl7rkrg" comment="" name="empfileloc" prompt="empfileloc?" promptNeeded="false" type="id_String" value="C:/Users/Admin/Desktop/D drive/Desktop Files/12AM/employe.txt"/>
+  <contextParameter xmi:id="_lUo3p7gAEeiuUqpHl7rkrg" comment="" name="mobnumfileloc" prompt="mobnumfileloc?" promptNeeded="false" type="id_String" value="C:/Users/Admin/Desktop/D drive/Desktop Files/12AM/mobilenums.txt"/>
+</talendfile:ContextType>
