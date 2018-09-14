@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Dz0qcKtqEei8EZX_EK-N6Q" name="job_file_validation" dataPackage="_Dz0qcatqEei8EZX_EK-N6Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/Admin/Desktop/projectfiles/sourcefile.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Dz0qcatqEei8EZX_EK-N6Q" name="default" dataManager="_Dz0qcKtqEei8EZX_EK-N6Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Dz0qcqtqEei8EZX_EK-N6Q" id="_4EZO4KtpEei8EZX_EK-N6Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Dz0qc6tqEei8EZX_EK-N6Q" label="Profit_Center_Product_Name_Contract_Type_Issue_Date_Contract_Status_Inventory_Status_Contract_Ref__No__CP_Ref__CP_Name_Allocated_Contract_Origin_Quality_Crop_Year_Quantity_Quantity_Unit_Shipment_Start_Date_Shipment_End_Date_Exchange_Month_Price_Price_units_INCO_Terms_Broker_Broker_Ref_No__Commission_Sample" length="279" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

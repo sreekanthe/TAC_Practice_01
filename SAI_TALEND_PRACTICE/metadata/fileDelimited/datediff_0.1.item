@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_SNxS0am6Eei8XYPtgIS7ig" name="datediff" dataPackage="_SNxS0qm6Eei8XYPtgIS7ig" Server="Localhost 127.0.0.1" FilePath="C:/Users/Admin/Desktop/datediff.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_SNxS0qm6Eei8XYPtgIS7ig" name="default" dataManager="_SNxS0am6Eei8XYPtgIS7ig">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_SNxS06m6Eei8XYPtgIS7ig" id="_Ig3IoKm6Eei8XYPtgIS7ig" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNxS1Km6Eei8XYPtgIS7ig" label="id" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNxS1am6Eei8XYPtgIS7ig" label="shipment_start_date" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNxS1qm6Eei8XYPtgIS7ig" label="shipment_end_date" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

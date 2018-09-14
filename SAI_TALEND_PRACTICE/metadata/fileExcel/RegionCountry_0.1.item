@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_90pyYG97EeWWUNk8U9Ktqw" name="RegionCountry" dataPackage="_90pyYW97EeWWUNk8U9Ktqw" Server="Localhost 127.0.0.1" FilePath="C:/Users/syam/Desktop/POC/Coding/RegionCountry.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Region_Country" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Region_Country:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_90pyYW97EeWWUNk8U9Ktqw" name="default" dataManager="_90pyYG97EeWWUNk8U9Ktqw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_90pyYm97EeWWUNk8U9Ktqw" id="_zToDoG97EeWWUNk8U9Ktqw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_90pyY297EeWWUNk8U9Ktqw" label="Region" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_90pyZG97EeWWUNk8U9Ktqw" label="Country" length="33" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

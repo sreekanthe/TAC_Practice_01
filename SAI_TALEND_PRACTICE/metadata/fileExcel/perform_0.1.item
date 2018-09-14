@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_diahEKENEeiH1c9rgMU6nA" name="perform" dataPackage="_diahEaENEeiH1c9rgMU6nA" Server="Localhost 127.0.0.1" FilePath="C:/Users/Admin/Desktop/performance_trends.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="trend_data_histogram_by_week.cs" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="trend_data_histogram_by_week.cs:w&#xA;" generationMode="EVENT_MODE">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_diahEaENEeiH1c9rgMU6nA" name="default" dataManager="_diahEKENEeiH1c9rgMU6nA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_diahEqENEeiH1c9rgMU6nA" id="_CjNIoKENEeiH1c9rgMU6nA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_diahE6ENEeiH1c9rgMU6nA" label="period_beginning" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_diahFKENEeiH1c9rgMU6nA" label="client_id" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_diahFaENEeiH1c9rgMU6nA" label="server" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_diahFqENEeiH1c9rgMU6nA" label="activity" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_diahF6ENEeiH1c9rgMU6nA" label="duration_segment_start" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_diahGKENEeiH1c9rgMU6nA" label="duration_segment_end" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_diahGaENEeiH1c9rgMU6nA" label="duration_range" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_diahGqENEeiH1c9rgMU6nA" label="record_count" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_diahG6ENEeiH1c9rgMU6nA" label="company_name" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_diahHKENEeiH1c9rgMU6nA" label="active_users" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
