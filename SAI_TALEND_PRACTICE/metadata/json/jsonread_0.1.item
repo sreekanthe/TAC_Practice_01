@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_BlBk4aHYEeiHhs0lBlrbqA" name="jsonread" dataPackage="_BlBk6KHYEeiHhs0lBlrbqA" JSONFilePath="C:/Users/Admin/Desktop/D drive/Desktop Files/12AM/JSON.txt" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_BlBk4qHYEeiHhs0lBlrbqA" LimitBoucle="-1" AbsoluteXPathQuery="$.glossary.GlossDiv.GlossList.GlossEntry">
+      <schemaTargets xmi:id="_BlBk46HYEeiHhs0lBlrbqA" RelativeXPathQuery="ID" TagName="ID"/>
+      <schemaTargets xmi:id="_BlBk5KHYEeiHhs0lBlrbqA" RelativeXPathQuery="SortAs" TagName="SortAs"/>
+      <schemaTargets xmi:id="_BlBk5aHYEeiHhs0lBlrbqA" RelativeXPathQuery="GlossTerm" TagName="GlossTerm"/>
+      <schemaTargets xmi:id="_BlBk5qHYEeiHhs0lBlrbqA" RelativeXPathQuery="Acronym" TagName="Acronym"/>
+      <schemaTargets xmi:id="_BlBk56HYEeiHhs0lBlrbqA" RelativeXPathQuery="Abbrev" TagName="Abbrev"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_BlBk6KHYEeiHhs0lBlrbqA" name="default" dataManager="_BlBk4aHYEeiHhs0lBlrbqA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_BlBk6aHYEeiHhs0lBlrbqA" id="_idsggKHXEeiHhs0lBlrbqA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BlBk6qHYEeiHhs0lBlrbqA" label="ID" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BlBk66HYEeiHhs0lBlrbqA" label="SortAs" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BlBk7KHYEeiHhs0lBlrbqA" label="GlossTerm" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BlBk7aHYEeiHhs0lBlrbqA" label="Acronym" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BlBk7qHYEeiHhs0lBlrbqA" label="Abbrev" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
