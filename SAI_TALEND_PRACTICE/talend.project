@@ -112,7 +112,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_t8gsfLgAEeiuUqpHl7rkrg">
       <baseItem xmi:id="_t8gsfbgAEeiuUqpHl7rkrg" id="_ifVPwK_vEeiRsczVfc84lg" version="0.1" type="job"/>
-      <relatedItems xmi:id="_t8gsfrgAEeiuUqpHl7rkrg" id="_Dw4iQK_rEeiRsczVfc84lg" version="Latest" type="property"/>
       <relatedItems xmi:id="_t8gsf7gAEeiuUqpHl7rkrg" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_t8gsgLgAEeiuUqpHl7rkrg" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_t8gsgbgAEeiuUqpHl7rkrg" id="TalendString" version="Latest" type="routine"/>
@@ -122,6 +121,8 @@
       <relatedItems xmi:id="_t8gshbgAEeiuUqpHl7rkrg" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_t8gshrgAEeiuUqpHl7rkrg" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_t8gsh7gAEeiuUqpHl7rkrg" id="_Dw4iQK_rEeiRsczVfc84lg - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_b8hPsLgWEeiuUqpHl7rkrg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_b8hPsbgWEeiuUqpHl7rkrg" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_1Qv4kLgMEeiuUqpHl7rkrg">
       <baseItem xmi:id="_1Qv4kbgMEeiuUqpHl7rkrg" id="_sEepEJ6sEeiVQ5_KLW9PFA" version="0.1" type="job"/>
